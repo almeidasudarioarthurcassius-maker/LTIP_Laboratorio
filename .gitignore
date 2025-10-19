@@ -1,0 +1,10 @@
+# Ignora arquivos de banco de dados SQLite
+*.db
+
+# Ignora pastas de uploads locais
+uploads/
+
+# Ignora pastas e arquivos de ambiente Python
+__pycache__/
+venv/
+.venv/
