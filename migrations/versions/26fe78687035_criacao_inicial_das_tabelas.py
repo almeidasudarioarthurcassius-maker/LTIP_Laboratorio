@@ -1,8 +1,8 @@
-"""Initial structure for PostgreSQL
+"""Criacao inicial das tabelas
 
-Revision ID: 39c0363572fc
-Revises: 61f9ee331446
-Create Date: 2025-10-18 20:51:25.971632
+Revision ID: 26fe78687035
+Revises: 
+Create Date: 2025-10-18 23:05:53.375957
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '39c0363572fc'
-down_revision = '61f9ee331446'
+revision = '26fe78687035'
+down_revision = None
 branch_labels = None
 depends_on = None
 
