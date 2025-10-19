@@ -1,1 +1,1 @@
-web: gunicorn LTIP_Laboratory_Webapp_app:app
+web: FLASK_APP=LTIP_Laboratory_Webapp_app.py flask db upgrade && gunicorn LTIP_Laboratory_Webapp_app:app
